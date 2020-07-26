@@ -11,6 +11,8 @@ spring:
           uri: https://github.com/mosesjebish/config-repo
           clone-on-start: true
           basedir: ./target/gitrepo
+      discovery:
+        enabled: true
 
 eureka:
   client:
